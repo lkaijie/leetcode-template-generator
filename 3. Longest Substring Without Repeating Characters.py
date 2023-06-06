@@ -1,22 +1,3 @@
-# leetcode-template-generator
-Generates file templates for solved leetcode problems
-
-# Usage
-```
-python3 template.py <Url>
-```
-
-
-# Example
-```
-python3 template.py https://leetcode.com/problems/longest-substring-without-repeating-characters/
-```
-
-# Output
-File name: `3. Longest Substring Without Repeating Characters.py` 
-
-Contents of the file:
-```
 # 3. Longest Substring Without Repeating Characters
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
 # Date: 2023/06/06 14:17:16
@@ -57,5 +38,3 @@ def best():
 
 if __name__ == '__main__':
     main()
-```
-
