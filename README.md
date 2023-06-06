@@ -2,6 +2,12 @@
 Generates file templates for solved leetcode problems
 
 # Usage
+## Install dependencies
+```
+pip install -r requirements.txt
+```
+
+## Run
 ```
 python3 template.py <Url>
 ```
