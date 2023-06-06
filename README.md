@@ -1,6 +1,8 @@
 # leetcode-template-generator
 Generates file templates for solved leetcode problems
 
+Made for personal use, feel free to do whatever 
+
 # Example
 ```
 python3 template.py https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -64,5 +66,3 @@ pip install -r requirements.txt
 ```
 python3 template.py <Valid leetcode problem URL> 
 ```
-
-### Feel free to modify
