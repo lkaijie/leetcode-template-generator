@@ -1,6 +1,6 @@
 # 3. Longest Substring Without Repeating Characters
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
-# Date: 2023/06/06 14:17:16
+# Date: 2023/06/06 14:36:22
 
 # Difficulty: Medium
 
@@ -22,6 +22,7 @@
 #  * 0 <= s.length <= 5 * 104
 #  * s consists of English letters, digits, symbols and spaces. 
 
+from typing import List
 # my solution
 def main(): 
     
