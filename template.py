@@ -49,7 +49,7 @@ def create_file(url) -> None:
     date = datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")
     file_name = information['title'] + '.py'
     description = information['description']
-    description = '\n'.join(line for line in description.splitlines() if line.strip())
+    description = '\n'.join(line for line in description.splitlines() if line.strip()) # removes empty lines
     difficulty = information['difficulty']
     title = information['title']
     template = """
@@ -78,7 +78,7 @@ def best():
 if __name__ == '__main__':
     main()
     """.strip()
-    content = template.format(title=title, url=url, date=date, difficulty=difficulty, description='# ' + description.replace('\n', '\n# '))
+    content = template.format(title=title, url=url, date=date, difficulty=difficulty, description='# ' + description.replace('\n', '\n# ')) # adds # to each line of description
     if not os.path.exists(file_name):
         with open(file_name, 'w') as f:
             f.write(content)
